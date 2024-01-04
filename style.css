@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-style: normal;
+    line-height: 27px;
+    padding: 1rem;
+}
+nav a{
+    color: #111111;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    align-items: center;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    text-decoration-thickness: 0.2rem;
+}
