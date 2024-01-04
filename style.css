@@ -27,3 +27,42 @@ a:hover {
     text-underline-offset: 0.4rem;
     text-decoration-thickness: 0.2rem;
 }
+footer {
+    background: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 5rem;
+}
+footer h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+footer a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 187%;
+    letter-spacing: 0.02em;
+    max-width: 320px;
+    color: #DBDBDB;
+    text-decoration: none;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer-colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
