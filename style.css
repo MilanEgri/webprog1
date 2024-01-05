@@ -439,3 +439,6 @@ input:focus {
   .timetable-part{
     background-color: #F9F9F9;
   }
+  hero img{
+    width: 100%;
+  }
