@@ -24,32 +24,32 @@
   <hero>
     <img src="./images/welcome.png" alt="hero"></img>
   </hero>
-  <form onsubmit="register(event)">
-    <div class="container">
-      <h1>Register</h1>
-      <p>Please fill in this form to create an account.</p>
+  <div class="register">
+    <form onsubmit="register(event)">
+      <div class="register-form">
+        <h1>Sing Up</h1>
+        <label for="full-name"><b>Full Name</b></label>
+        <input type="text" placeholder="Full Name" name="full-name" id="full-name" required />
 
-      <label for="full-name"><b>Full Name</b></label>
-      <input type="text" placeholder="Full Name" name="full-name" id="full-name" required />
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" id="username" required />
 
-      <label for="username"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="username" id="username" required />
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required />
 
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" id="email" required />
+        <label for="birth-date"><b>Birth Date</b></label>
+        <input type="date" placeholder="Enter Birth Date" name="birth-date" id="birth-date" required />
 
-      <label for="birth-date"><b>Birth Date</b></label>
-      <input type="date" placeholder="Enter Birth Date" name="birth-date" id="birth-date" required />
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required />
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" id="psw" required />
-
-      <label for="psw-confirm"><b>Confirm Password</b></label>
-      <input type="password" placeholder="Confirm Password" name="psw-confirm" id="psw-confirm" required />
-      <button type="submit" class="registerbtn">Register</button>
-    </div>
-  </form>
-  <p id="register-page-text">Register Here</p>
+        <label for="psw-confirm"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Confirm Password" name="psw-confirm" id="psw-confirm" required />
+        <button type="submit" class="registerbtn">Register</button>
+      </div>
+    </form>
+    <p id="register-page-text">Sign Up</p>
+  </div>
   <footer>
 
 

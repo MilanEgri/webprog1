@@ -2,8 +2,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFF;
-  }
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -11,7 +12,8 @@ body {
     line-height: 27px;
     padding: 1rem;
 }
-nav a{
+
+nav a {
     color: #111111;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
@@ -22,11 +24,13 @@ nav a{
     font-weight: bold;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
     text-underline-offset: 0.4rem;
     text-decoration-thickness: 0.2rem;
 }
+
 footer {
     background: #141414;
     display: flex;
@@ -36,7 +40,8 @@ footer {
     padding-bottom: 4rem;
     gap: 5rem;
 }
-footer h3{
+
+footer h3 {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
@@ -46,7 +51,8 @@ footer h3{
     text-transform: uppercase;
     color: #FFFFFF
 }
-footer a{
+
+footer a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -57,28 +63,33 @@ footer a{
     color: #DBDBDB;
     text-decoration: none;
 }
-footer ul{
+
+footer ul {
     display: flex;
     flex-direction: column;
 }
-.footer-colum{
+
+.footer-colum {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.gallery{
+
+.gallery {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #E5E5E5;
 }
-.gallery-elemnt{
+
+.gallery-elemnt {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5rem;
 }
-.gallery h1{
+
+.gallery h1 {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -91,12 +102,104 @@ footer ul{
     width: 100vw;
     text-align: center;
 }
-.gallery-even{
+
+.gallery-even {
     background: #F9F9F9;
 }
-.gallery-images{
+
+.gallery-images {
     max-width: 1300px;
 }
-.gallery img:hover{
+
+.gallery img:hover {
     transform: scale(1.03);
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    width: 500px;
+    height: 600px;
+    border-radius: 6px;
+    color: darkgrey;
+    padding: 3rem;
+    text-align: center;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    background: #F9F9F9;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;}
+
+.register input {
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    padding: 5px;
+    color: darkgray;
+}
+
+.register label {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 187%;
+    letter-spacing: 0.02em;
+    max-width: 320px;
+    color: #DBDBDB;
+    padding: 5px;
+}
+
+.register h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+input:focus {
+    outline: none;
+}
+.register button{
+    margin-top: 2rem;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: transparent;
+    max-width: 140px;
+    max-height: 55px;
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 2px solid darkgray;
+}
+.register button:hover{
+    scale: 1.1;
+}
+#register-page-text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 187%;
+    letter-spacing: 0.02em;
+    color: #333333;
+    max-width: 310px;
 }
