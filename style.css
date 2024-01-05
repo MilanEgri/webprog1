@@ -269,3 +269,173 @@ input:focus {
     padding-top: 5rem;
     margin-left: 5rem;
 }
+#cv {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    margin: 20px;
+    max-width: 800px;
+  }
+
+  #about-me {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #about-me p {
+    font-size: 14px;
+  }
+  
+  #education {
+    margin-bottom: 40px;
+  }
+  
+  #education h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #education ul {
+    list-style: none;
+  }
+  
+  #education li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  #education li strong {
+    font-weight: bold;
+  }
+  
+  #languages {
+    margin-bottom: 40px;
+  }
+  
+  #languages h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #languages ul {
+    list-style: none;
+  }
+  
+  #languages li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  #languages li strong {
+    font-weight: bold;
+  }
+  
+  #contact-information {
+    margin-bottom: 20px;
+  }
+  
+  #contact-information h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #contact-information ul {
+    list-style: none;
+  }
+  
+  #contact-information li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  #contact-information li strong {
+    font-weight: bold;
+  }
+  .cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    gap: 1rem;
+  }
+  .cv h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #111111;
+    font-weight: 600;
+    padding: 1.5rem 0rem;
+  }
+  #downloadBtn{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: black;
+    padding: 20px 40px;
+    cursor: pointer;
+  }
+  #downloadBtn:hover{
+    scale: 1.03;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-family: 'Oswald';
+  }
+  
+  th {
+    padding: 10px;
+    background-color: #fafafa;
+    color: black;
+    text-align: center;
+  }
+  
+
+  
+  td {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .day ,.h{
+    padding: 10px;
+    background-color: #636363;
+    color: black;
+    text-align: center;
+    border: none;
+  }
+  .x{
+    background-color: #ffffff;
+  }
+  .y{
+    background-color: #000;
+    color: #fff;
+  }
+  .timetable{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #111111;
+    font-weight: 600;
+    padding: 1.5rem 0rem;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .timetable-part{
+    background-color: #F9F9F9;
+  }
