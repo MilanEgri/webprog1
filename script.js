@@ -29,6 +29,6 @@ function register(event) {
       Milan` 
   }
   else{
-    registerPageText.innerText = "Register Here" 
+    registerPageText.innerText = "" 
   }
 }
